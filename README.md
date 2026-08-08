@@ -1,203 +1,120 @@
-
 <div align="center">
-  <img width="100%" src="./arpon-banner.svg" alt="Arpon Dutta Banner" />
+
+<img src="./arpon-banner.svg" alt="Arpon Dutta" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FF0033&center=true&vCenter=true&width=650&lines=Final-Year+CS+(AI+%26+ML)+Student;4%2B+Years+Freelance+Dev+%26+Design;Building+Interactive+Web+Experiences;Kolkata+%2C+India" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=FF0033&style=for-the-badge&labelColor=0D0D0D" alt="views"/>
+</a>
+<img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="followers"/>
+
 </div>
 
 <br/>
 
-<div align="center">
-  <img width="380" src="./arpon-lanyard.svg" alt="Arpon Dutta Developer ID Lanyard" />
-</div>
+### 🖤 About Me
 
-<br/>
+```yaml
+name: Arpon Dutta
+role: Full-Stack Developer & AI/ML Enthusiast
+education: B.Tech CS (AI & ML) — Techno India University, Kolkata — CGPA 8.16
+experience: 4+ years freelance (web dev, graphic design, video reels) — 10+ client projects
+internship: Web Development Intern @ CodSoft
+currently_building: macOS-style interactive portfolio (React + Vite + TS + Tailwind + Framer Motion)
+location: Kolkata, India
+```
 
-<div align="center">
-🌟 Welcome to My Digital Universe 🌟
+---
 
-
-<h1 align="center">Hi 👋, I'm Arpon!</h1>
-
-🌱 I’m currently learning **Machine Learning, React & Next Js**
-
-💬 Ask me about **React, Next Js, Typescript & Javascript**
-
-📫 How to reach me **arpongen3094@gmail.com**
-
-⚡ Fun fact **I think I can code!**
+### ⚙️ Tech Arsenal
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=2000&pause=500&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=🚀+FULL+STACK+DEVELOPER;🤖+AI+%26+ML+ENTHUSIAST;⚡+PERFORMANCE+OPTIMIZER;🌐+OPEN+SOURCE+CONTRIBUTOR" alt="Typing SVG" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Hire-00ff00?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=000000" />
-  <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge&abbreviated=true" />
-  <img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=orange&labelColor=000000" />
-  <img src="https://img.shields.io/github/stars/arpon-dutta07?label=TOTAL+STARS&style=for-the-badge&color=yellow&labelColor=000000" />
-</div>
 
-<!-- GitHub Stats - Multiple sources for reliability -->
-## 📊 **GITHUB ANALYTICS**
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpon-dutta07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=arpon-dutta07&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
-</div>
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpon-dutta07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=12&hide=html,css" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arpon-dutta07&theme=tokyonight" />
-</div>
-<div align="center">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arpon-dutta07&theme=tokyonight" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arpon-dutta07&theme=tokyonight" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arpon-dutta07&theme=tokyonight" />
-</div>
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arpon-dutta07&theme=tokyonight&utcOffset=5.5" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true&height=200" />
-</div>
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true&area_color=00D9FF" />
-</div>
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arpon-dutta07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</div>
+![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=FF0033)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FF0033)
+![Python](https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=FF0033)
+![C++](https://img.shields.io/badge/-C++-000000?style=for-the-badge&logo=cplusplus&logoColor=FF0033)
+![React](https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&logoColor=FF0033)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FF0033)
+![Node.js](https://img.shields.io/badge/-Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=FF0033)
+![Tailwind](https://img.shields.io/badge/-TailwindCSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=FF0033)
+![Framer](https://img.shields.io/badge/-Framer%20Motion-000000?style=for-the-badge&logo=framer&logoColor=FF0033)
+![Git](https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=git&logoColor=FF0033)
+
 </div>
 
 ---
 
-## 🎯 **MISSION STATEMENT**
-
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <h3>🚀</h3>
-      <strong>INNOVATION</strong>
-      <br/><em>Cutting-edge solutions</em>
-    </td>
-    <td align="center" width="25%">
-      <h3>⚡</h3>
-      <strong>PERFORMANCE</strong>
-      <br/><em>Lightning-fast code</em>
-    </td>
-    <td align="center" width="25%">
-      <h3>💎</h3>
-      <strong>QUALITY</strong>
-      <br/><em>Clean & scalable</em>
-    </td>
-    <td align="center" width="25%">
-      <h3>🤖</h3>
-      <strong>AI-POWERED</strong>
-      <br/><em>Future-ready tech</em>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🧰 Languages & Tools
-
-<p align="center">
-  <!-- Web & Styling -->
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap" />
-
-  <!-- Programming Languages -->
-  <img src="https://skillicons.dev/icons?i=js,ts" />
-
-  <!-- Frameworks & Libraries -->
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express" />
-
-  <!-- Design & Tools -->
-  <img src="https://skillicons.dev/icons?i=figma,photoshop" />
-
-  <!-- Version Control & DevOps -->
-  <img src="https://skillicons.dev/icons?i=git,linux" />
-
-  <!-- Databases -->
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,firebase" />
-</p>
-
----
-
-## 🎭 **CODING PHILOSOPHY**
-
-</div>
-<table align="center">
-  <tr>
-    <td align="center">
-      <h3>📝</h3>
-      <strong>Clean Code</strong>
-      <br/><em>"Code tells you how, comments tell you why"</em>
-    </td>
-    <td align="center">
-      <h3>💡</h3>
-      <strong>Innovation</strong>
-      <br/><em>"Think different, code different"</em>
-    </td>
-    <td align="center">
-      <h3>🚀</h3>
-      <strong>Performance</strong>
-      <br/><em>"Optimize for user experience"</em>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🌐 **CONNECT WITH ME**
+### 🚀 Pinned Work
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Let's+Build+Something+Amazing+Together!" />
+| Project | Stack |
+|---|---|
+| **AI Image Enhancer** | JavaScript · AI/ML |
+| **AI Image Generator** | CSS · Generative AI |
+| **My Portfolio** | JavaScript |
+| **AI Resume Analyzer** | JavaScript · NLP |
+| **Component Craft** | TypeScript |
+| **EduAI (Teaching Platform)** | TypeScript |
 
-<br/><br/>
-
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/arpon-dutta-009a88360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" />
-</a>
-
-<!-- Instagram -->
-<a href="https://www.instagram.com/arpon_._dutta?igsh=bmhreWxvcnlmdnh1" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" />
-</a>
-
-<!-- Gmail -->
-<a href="arpongen3094@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" />
-</a>
-
-<!-- Portfolio -->
-<a href="https://my-portfolio-eta-ecru-34.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white&labelColor=FF6B6B" />
-</a>
-
-<!-- WhatsApp -->
-<a href="https://wa.me/7595842466" target="_blank">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" />
-</a>
-
-<!-- Facebook -->
-<a href="[https://facebook.com/your-facebook-profile](https://www.facebook.com/arpon.dutta.524)" target="_blank">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" />
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Open%20for-Collaboration-00ff00?style=for-the-badge&logo=handshake&logoColor=white&labelColor=000000" />
-<img src="https://img.shields.io/badge/Available%20for-Freelance-ff6b6b?style=for-the-badge&logo=freelancer&
+</div>
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
-</div>
+### 📊 GitHub Stats & Activity
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+⭐+Star+some+repos+if+you+like+them!" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=arpon-dutta07&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF0033&icon_color=FF0033&text_color=FFFFFF&ring_color=FF0033" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arpon-dutta07&hide_border=true&background=0D0D0D&ring=FF0033&fire=FF0033&currStreakLabel=FF0033&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=FFFFFF" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpon-dutta07&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF" width="48%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&bg_color=0D0D0D&color=FF0033&line=FF0033&point=FFFFFF&area=true&hide_border=true" width="48%"/>
+
 </div>
+
+---
+
+### 🏆 GitHub Trophies
 
 <div align="center">
-  <h3>⚡ From <a href="https://github.com/yourusername">Arpon Dutta</a> with 💖</h3>
+<img src="https://github-profile-trophy.vercel.app/?username=arpon-dutta07&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" />
 </div>
 
+---
+
+### 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/output/github-contribution-grid-snake-dark.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
+
+---
+
+### 🪪 Dev ID
+
+<div align="center">
+<img src="./arpon-lanyard.svg" width="260"/>
+</div>
+
+---
+
+### 📫 Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF0033)](https://my-portfolio-eta-ecru-34.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/arpon-dutta-009a88360)
+[![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=FF0033)](https://www.instagram.com/arpon_._dutta)
+[![Gmail](https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=FF0033)](mailto:arpongen3094@gmail.com)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:0D0D0D&height=100&section=footer"/>
