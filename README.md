@@ -1,10 +1,48 @@
 <div align="center">
 
-<img src="./arpon-banner.svg" alt="Arpon Dutta" width="100%"/>
+<!-- ✨ Animated Banner ✨ -->
+<img src="./arpon-banner.svg" alt="Arpon Dutta — Full-Stack Developer" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FF0033&center=true&vCenter=true&width=650&lines=Final-Year+CS+(AI+%26+ML)+Student;4%2B+Years+Freelance+Dev+%26+Design;Building+Interactive+Web+Experiences;Kolkata+%2C+India" alt="Typing SVG" />
+</div>
 
 <br/>
+
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
+
+<!-- 🪪 Lanyard ID Card -->
+<img src="./arpon-lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
+
+</td>
+<td width="62%" valign="middle">
+
+### 🖤 About Me
+
+```yaml
+name: Arpon Dutta
+role: Full-Stack Developer & AI/ML Enthusiast
+education: B.Tech CS (AI & ML) — Techno India University — CGPA 8.16
+experience: 4+ years freelance (web dev, graphic design, video reels)
+currently_building: macOS-style portfolio (React + Vite + TS + Tailwind)
+location: Kolkata, India
+```
+
+<br/>
+
+> 💗 *"I don't just write code, I engineer experiences."*
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF0033&center=true&vCenter=true&width=650&lines=Final-Year+CS+(AI+%26+ML)+Student;4%2B+Years+Freelance+Dev+%26+Design;Building+Interactive+Web+Experiences;Kolkata+%2C+India" alt="Typing SVG" />
+
+<br/><br/>
 
 <a href="https://github.com/arpon-dutta07">
   <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=FF0033&style=for-the-badge&labelColor=0D0D0D" alt="views"/>
@@ -12,20 +50,6 @@
 <img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="followers"/>
 
 </div>
-
-<br/>
-
-### 🖤 About Me
-
-```yaml
-name: Arpon Dutta
-role: Full-Stack Developer & AI/ML Enthusiast
-education: B.Tech CS (AI & ML) — Techno India University, Kolkata — CGPA 8.16
-experience: 4+ years freelance (web dev, graphic design, video reels) — 10+ client projects
-internship: Web Development Intern @ CodSoft
-currently_building: macOS-style interactive portfolio (React + Vite + TS + Tailwind + Framer Motion)
-location: Kolkata, India
-```
 
 ---
 
@@ -53,13 +77,13 @@ location: Kolkata, India
 <div align="center">
 
 | Project | Stack |
-|---|---|
-| **AI Image Enhancer** | JavaScript · AI/ML |
-| **AI Image Generator** | CSS · Generative AI |
-| **My Portfolio** | JavaScript |
-| **AI Resume Analyzer** | JavaScript · NLP |
-| **Component Craft** | TypeScript |
-| **EduAI (Teaching Platform)** | TypeScript |
+|:---|:---:|
+| **AI Image Enhancer** | `JavaScript` `AI/ML` |
+| **AI Image Generator** | `CSS` `Generative AI` |
+| **My Portfolio** | `React` `TypeScript` |
+| **AI Resume Analyzer** | `Python` `NLP` |
+| **Component Craft** | `TypeScript` `React` |
+| **EduAI (Teaching Platform)** | `Next.js` `TypeScript` |
 
 </div>
 
@@ -94,14 +118,6 @@ location: Kolkata, India
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/output/github-contribution-grid-snake-dark.svg">
   <img alt="snake animation" src="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/output/github-contribution-grid-snake.svg">
 </picture>
-</div>
-
----
-
-### 🪪 Dev ID
-
-<div align="center">
-<img src="./arpon-lanyard.svg" width="260"/>
 </div>
 
 ---
