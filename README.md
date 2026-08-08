@@ -1,10 +1,19 @@
 
-[![GitHub Banner](https://user-images.githubusercontent.com/58959408/232639433-cb0aea21-66f0-4508-a771-85e2089c5a87.gif)](https://github.com/zainwen9)
+<div align="center">
+  <img width="100%" src="./arpon-banner.svg" alt="Arpon Dutta Banner" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="380" src="./arpon-lanyard.svg" alt="Arpon Dutta Developer ID Lanyard" />
+</div>
+
+<br/>
 
 <div align="center">
 🌟 Welcome to My Digital Universe 🌟
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=FULL%20STACK%20DEVELOPER&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building%20the%20Future%20with%20Code&descAlignY=51&descAlign=50" />
 
 <h1 align="center">Hi 👋, I'm Arpon!</h1>
 
