@@ -1,0 +1,215 @@
+<svg width="420" height="640" viewBox="0 0 420 640" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <!-- Strap gradient -->
+    <linearGradient id="strapGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF0033"/>
+      <stop offset="50%" stop-color="#CC0029"/>
+      <stop offset="100%" stop-color="#8a0019"/>
+    </linearGradient>
+    <!-- Card background -->
+    <radialGradient id="cardBg" cx="50%" cy="0%" r="110%">
+      <stop offset="0%" stop-color="#1a0006"/>
+      <stop offset="60%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <!-- Avatar rim light -->
+    <linearGradient id="rimLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0033" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FF0033" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF0033" stop-opacity="0.8"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Soft shadow -->
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <!-- Avatar glow -->
+    <filter id="avatarGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Clip for avatar circle -->
+    <clipPath id="avatarClip">
+      <circle cx="210" cy="365" r="50"/>
+    </clipPath>
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== LANYARD STRAP ===== -->
+  <!-- Strap body -->
+  <rect x="192" y="0" width="36" height="228" fill="url(#strapGrad)" rx="2"/>
+  <!-- Strap texture / weave pattern -->
+  <g opacity="0.15">
+    <line x1="197" y1="0" x2="197" y2="228" stroke="#000" stroke-width="0.5"/>
+    <line x1="204" y1="0" x2="204" y2="228" stroke="#000" stroke-width="0.5"/>
+    <line x1="211" y1="0" x2="211" y2="228" stroke="#000" stroke-width="0.5"/>
+    <line x1="218" y1="0" x2="218" y2="228" stroke="#000" stroke-width="0.5"/>
+    <line x1="223" y1="0" x2="223" y2="228" stroke="#000" stroke-width="0.5"/>
+  </g>
+  <!-- Strap embossed text -->
+  <g font-size="9" fill="#0a0a0a" font-weight="bold" opacity="0.7">
+    <text x="213" y="35" transform="rotate(90 213,35)">ARPON.DEV</text>
+    <text x="213" y="85" transform="rotate(90 213,85)">KEEP</text>
+    <text x="213" y="120" transform="rotate(90 213,120)">SHIPPING</text>
+    <text x="213" y="170" transform="rotate(90 213,170)">ARPON.DEV</text>
+  </g>
+  <!-- Strap edge highlights -->
+  <rect x="192" y="0" width="1" height="228" fill="#FF3355" opacity="0.3"/>
+  <rect x="227" y="0" width="1" height="228" fill="#880011" opacity="0.5"/>
+
+  <!-- ===== METAL CLIP ===== -->
+  <g>
+    <!-- Clip ring -->
+    <circle cx="210" cy="236" r="14" fill="none" stroke="#666" stroke-width="4"/>
+    <circle cx="210" cy="236" r="14" fill="none" stroke="#888" stroke-width="1.5" opacity="0.3"/>
+    <!-- Clip body -->
+    <rect x="201" y="246" width="18" height="24" rx="3" fill="#555"/>
+    <!-- Clip metal shine -->
+    <rect x="204" y="248" width="4" height="20" rx="1" fill="#777" opacity="0.4"/>
+    <!-- Clip jaw -->
+    <path d="M 199 268 L 221 268 L 219 274 L 201 274 Z" fill="#4a4a4a"/>
+    <!-- Spring detail -->
+    <circle cx="210" cy="258" r="2" fill="#444" stroke="#555" stroke-width="0.5"/>
+  </g>
+
+  <!-- ===== ID CARD ===== -->
+  <g filter="url(#cardShadow)">
+    <!-- Card body -->
+    <rect x="35" y="275" width="350" height="345" rx="16" fill="url(#cardBg)"/>
+    <!-- Card border -->
+    <rect x="35" y="275" width="350" height="345" rx="16" fill="none" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.5"/>
+    <!-- Inner border accent -->
+    <rect x="42" y="282" width="336" height="331" rx="13" fill="none" stroke="#FF0033" stroke-opacity="0.08" stroke-width="0.8"/>
+
+    <!-- Card punch hole -->
+    <circle cx="210" cy="288" r="5" fill="#050505" stroke="#333" stroke-width="0.8"/>
+
+    <!-- Header row -->
+    <text x="60" y="318" font-size="10" fill="#555" letter-spacing="2">DEVELOPER ID</text>
+    <text x="360" y="318" font-size="10" fill="#FF0033" text-anchor="end" letter-spacing="1">AD-2026</text>
+    <!-- Separator line -->
+    <line x1="55" y1="326" x2="365" y2="326" stroke="#FF0033" stroke-opacity="0.15" stroke-width="0.8"/>
+
+    <!-- ===== AVATAR ===== -->
+    <!-- Avatar outer ring glow -->
+    <circle cx="210" cy="365" r="54" fill="none" stroke="#FF0033" stroke-width="1.5" opacity="0.2" filter="url(#avatarGlow)"/>
+    <!-- Avatar background circle -->
+    <circle cx="210" cy="365" r="50" fill="#111111" stroke="url(#rimLight)" stroke-width="2"/>
+
+    <!-- Flat-vector portrait silhouette (front-facing bust) -->
+    <g clip-path="url(#avatarClip)">
+      <!-- Neck -->
+      <rect x="198" y="385" width="24" height="18" fill="#2a2a2a" rx="4"/>
+
+      <!-- Shoulders / body -->
+      <path d="M 160 415 Q 160 398 185 393 L 198 390 L 222 390 L 235 393 Q 260 398 260 415 L 260 420 L 160 420 Z" fill="#1e1e1e"/>
+      <!-- Shirt collar -->
+      <path d="M 200 393 Q 210 400 220 393" stroke="#333" stroke-width="1" fill="none"/>
+
+      <!-- Head -->
+      <ellipse cx="210" cy="367" rx="24" ry="28" fill="#2a2a2a"/>
+
+      <!-- Hair -->
+      <path d="M 186 355 Q 184 335 195 328 Q 205 323 215 324 Q 228 326 233 338 Q 236 348 234 358 Q 225 345 210 343 Q 195 345 186 355 Z" fill="#111111"/>
+      <!-- Side hair -->
+      <path d="M 186 355 Q 183 360 184 368" stroke="#111111" stroke-width="3" fill="none"/>
+      <path d="M 234 355 Q 237 360 236 368" stroke="#111111" stroke-width="3" fill="none"/>
+
+      <!-- Face features -->
+      <!-- Eyes -->
+      <ellipse cx="201" cy="363" rx="3" ry="2" fill="#1a1a1a"/>
+      <ellipse cx="219" cy="363" rx="3" ry="2" fill="#1a1a1a"/>
+      <!-- Eyebrows -->
+      <path d="M 196 358 Q 201 356 206 358" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
+      <path d="M 214 358 Q 219 356 224 358" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
+      <!-- Nose -->
+      <path d="M 210 367 Q 211 372 210 375" stroke="#222" stroke-width="0.8" fill="none"/>
+      <!-- Mouth -->
+      <path d="M 205 380 Q 210 383 215 380" stroke="#222" stroke-width="0.8" fill="none"/>
+
+      <!-- Glasses -->
+      <rect x="194" y="358" width="14" height="10" rx="4" fill="none" stroke="#444" stroke-width="1.2"/>
+      <rect x="212" y="358" width="14" height="10" rx="4" fill="none" stroke="#444" stroke-width="1.2"/>
+      <line x1="208" y1="363" x2="212" y2="363" stroke="#444" stroke-width="0.8"/>
+      <line x1="194" y1="363" x2="190" y2="361" stroke="#444" stroke-width="0.8"/>
+      <line x1="226" y1="363" x2="230" y2="361" stroke="#444" stroke-width="0.8"/>
+
+      <!-- Red rim light accents -->
+      <path d="M 234 345 Q 238 360 234 380" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.5"/>
+      <path d="M 186 380 Q 182 367 186 350" stroke="#FF0033" stroke-width="0.8" fill="none" opacity="0.25"/>
+    </g>
+
+    <!-- ===== NAME & DETAILS ===== -->
+    <text x="210" y="438" font-size="22" fill="url(#nameGrad)" text-anchor="middle" font-weight="bold" letter-spacing="0.5">Arpon Dutta</text>
+
+    <!-- Role with letter spacing -->
+    <text x="210" y="458" font-size="11" fill="#FF0033" text-anchor="middle" letter-spacing="3" font-weight="bold">FULL-STACK DEVELOPER</text>
+
+    <!-- Handle -->
+    <text x="210" y="478" font-size="10" fill="#666" text-anchor="middle">@arpon-dutta07</text>
+
+    <!-- Divider -->
+    <g>
+      <line x1="80" y1="492" x2="155" y2="492" stroke="#FF0033" stroke-opacity="0.2" stroke-width="0.8"/>
+      <circle cx="210" cy="492" r="2" fill="#FF0033" opacity="0.4"/>
+      <line x1="265" y1="492" x2="340" y2="492" stroke="#FF0033" stroke-opacity="0.2" stroke-width="0.8"/>
+    </g>
+
+    <!-- Tech stack -->
+    <g font-size="9.5" fill="#888" text-anchor="middle">
+      <text x="210" y="510">React &#183; TypeScript &#183; Python &#183; AI/ML &#183; Node.js</text>
+    </g>
+
+    <!-- Separator -->
+    <line x1="55" y1="524" x2="365" y2="524" stroke="#FF0033" stroke-opacity="0.1" stroke-width="0.8"/>
+
+    <!-- ===== BARCODE ===== -->
+    <g transform="translate(60, 538)">
+      <!-- Barcode bars -->
+      <rect x="0" y="0" width="5" height="30" fill="#FF0033" opacity="0.9"/>
+      <rect x="8" y="0" width="2" height="30" fill="#e6e6e6" opacity="0.8"/>
+      <rect x="13" y="0" width="7" height="30" fill="#FF0033" opacity="0.7"/>
+      <rect x="23" y="0" width="2" height="30" fill="#e6e6e6" opacity="0.6"/>
+      <rect x="28" y="0" width="4" height="30" fill="#FF0033" opacity="0.8"/>
+      <rect x="35" y="0" width="3" height="30" fill="#e6e6e6" opacity="0.5"/>
+      <rect x="41" y="0" width="8" height="30" fill="#FF0033" opacity="0.6"/>
+      <rect x="52" y="0" width="2" height="30" fill="#e6e6e6" opacity="0.7"/>
+      <rect x="57" y="0" width="5" height="30" fill="#FF0033" opacity="0.8"/>
+      <rect x="65" y="0" width="3" height="30" fill="#e6e6e6" opacity="0.6"/>
+      <rect x="71" y="0" width="6" height="30" fill="#FF0033" opacity="0.7"/>
+      <rect x="80" y="0" width="2" height="30" fill="#e6e6e6" opacity="0.5"/>
+      <rect x="85" y="0" width="4" height="30" fill="#FF0033" opacity="0.9"/>
+      <rect x="92" y="0" width="3" height="30" fill="#e6e6e6" opacity="0.6"/>
+      <rect x="98" y="0" width="7" height="30" fill="#FF0033" opacity="0.7"/>
+      <rect x="108" y="0" width="2" height="30" fill="#e6e6e6" opacity="0.8"/>
+      <rect x="113" y="0" width="5" height="30" fill="#FF0033" opacity="0.6"/>
+      <rect x="121" y="0" width="3" height="30" fill="#e6e6e6" opacity="0.5"/>
+      <rect x="127" y="0" width="4" height="30" fill="#FF0033" opacity="0.8"/>
+      <!-- Barcode number -->
+      <text x="65" y="42" font-size="7" fill="#444" text-anchor="middle" letter-spacing="2">AD 0726 2026 DEV</text>
+    </g>
+
+    <!-- Fun text -->
+    <text x="360" y="570" font-size="8" fill="#444" text-anchor="end" font-style="italic">// not draggable, just vibes</text>
+
+    <!-- Corner accents -->
+    <path d="M 42 282 L 42 292 M 42 282 L 52 282" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M 378 282 L 378 292 M 378 282 L 368 282" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M 42 613 L 42 603 M 42 613 L 52 613" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M 378 613 L 378 603 M 378 613 L 368 613" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.4"/>
+  </g>
+</svg>
