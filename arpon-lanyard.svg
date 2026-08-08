@@ -110,47 +110,58 @@
     <!-- Avatar background circle -->
     <circle cx="210" cy="365" r="50" fill="#111111" stroke="url(#rimLight)" stroke-width="2"/>
 
-    <!-- Flat-vector portrait silhouette (front-facing bust) -->
+    <!-- Flat-vector portrait (custom illustration based on photo) -->
     <g clip-path="url(#avatarClip)">
+      <!-- Background subtle gradient fill -->
+      <rect x="160" y="315" width="100" height="100" fill="#120508"/>
+
       <!-- Neck -->
-      <rect x="198" y="385" width="24" height="18" fill="#2a2a2a" rx="4"/>
+      <path d="M 197 380 L 223 380 L 225 398 L 195 398 Z" fill="#2a2224"/>
+      <!-- Neck shadow under chin -->
+      <path d="M 197 380 Q 210 387 223 380 Q 220 376 197 380 Z" fill="#1b1416"/>
 
-      <!-- Shoulders / body -->
-      <path d="M 160 415 Q 160 398 185 393 L 198 390 L 222 390 L 235 393 Q 260 398 260 415 L 260 420 L 160 420 Z" fill="#1e1e1e"/>
-      <!-- Shirt collar -->
-      <path d="M 200 393 Q 210 400 220 393" stroke="#333" stroke-width="1" fill="none"/>
+      <!-- Shoulders & Kurta (Mandarin collar) -->
+      <path d="M 155 425 Q 165 400 188 395 L 198 393 L 222 393 L 232 395 Q 255 400 265 425 Z" fill="#1c1c1c"/>
+      <!-- Mandarin / Band collar -->
+      <path d="M 196 393 L 196 385 Q 210 382 224 385 L 224 393" stroke="#2a2a2a" stroke-width="2" fill="none"/>
+      <path d="M 210 385 L 210 405" stroke="#FF0033" stroke-width="1" opacity="0.6"/> <!-- Kurta placket line -->
+      <!-- Kurta pattern accent (subtle geometric diamonds) -->
+      <path d="M 175 405 L 180 410 L 175 415 L 170 410 Z" fill="#FF0033" opacity="0.15"/>
+      <path d="M 245 405 L 250 410 L 245 415 L 240 410 Z" fill="#FF0033" opacity="0.15"/>
 
-      <!-- Head -->
-      <ellipse cx="210" cy="367" rx="24" ry="28" fill="#2a2a2a"/>
+      <!-- Head shape -->
+      <path d="M 190 345 Q 186 370 196 382 Q 210 390 224 382 Q 234 370 230 345 Z" fill="#2d2527"/>
 
-      <!-- Hair -->
-      <path d="M 186 355 Q 184 335 195 328 Q 205 323 215 324 Q 228 326 233 338 Q 236 348 234 358 Q 225 345 210 343 Q 195 345 186 355 Z" fill="#111111"/>
-      <!-- Side hair -->
-      <path d="M 186 355 Q 183 360 184 368" stroke="#111111" stroke-width="3" fill="none"/>
-      <path d="M 234 355 Q 237 360 236 368" stroke="#111111" stroke-width="3" fill="none"/>
+      <!-- Beard & Stubble -->
+      <path d="M 187 358 Q 185 375 198 385 Q 210 391 222 385 Q 235 375 233 358 Q 231 378 221 385 Q 210 389 199 385 Q 189 378 187 358 Z" fill="#141112"/>
+      <path d="M 192 376 Q 210 385 228 376 Q 220 387 210 387 Q 200 387 192 376 Z" fill="#110d0e"/> <!-- Chin beard -->
+      <!-- Mustache -->
+      <path d="M 200 373 Q 210 370 220 373 Q 210 376 200 373 Z" fill="#141112"/>
 
-      <!-- Face features -->
-      <!-- Eyes -->
-      <ellipse cx="201" cy="363" rx="3" ry="2" fill="#1a1a1a"/>
-      <ellipse cx="219" cy="363" rx="3" ry="2" fill="#1a1a1a"/>
-      <!-- Eyebrows -->
-      <path d="M 196 358 Q 201 356 206 358" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
-      <path d="M 214 358 Q 219 356 224 358" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
-      <!-- Nose -->
-      <path d="M 210 367 Q 211 372 210 375" stroke="#222" stroke-width="0.8" fill="none"/>
-      <!-- Mouth -->
-      <path d="M 205 380 Q 210 383 215 380" stroke="#222" stroke-width="0.8" fill="none"/>
+      <!-- Ears -->
+      <ellipse cx="186" cy="360" rx="3.5" ry="6" fill="#2a2224"/>
+      <ellipse cx="234" cy="360" rx="3.5" ry="6" fill="#2a2224"/>
 
-      <!-- Glasses -->
-      <rect x="194" y="358" width="14" height="10" rx="4" fill="none" stroke="#444" stroke-width="1.2"/>
-      <rect x="212" y="358" width="14" height="10" rx="4" fill="none" stroke="#444" stroke-width="1.2"/>
-      <line x1="208" y1="363" x2="212" y2="363" stroke="#444" stroke-width="0.8"/>
-      <line x1="194" y1="363" x2="190" y2="361" stroke="#444" stroke-width="0.8"/>
-      <line x1="226" y1="363" x2="230" y2="361" stroke="#444" stroke-width="0.8"/>
+      <!-- Hair (Stylized quiff / voluminous pompadour) -->
+      <!-- Hair base silhouette -->
+      <path d="M 183 355 Q 180 338 188 326 Q 198 314 212 313 Q 226 314 233 324 Q 238 333 237 355 Q 232 342 227 338 Q 212 334 195 338 Q 188 344 183 355 Z" fill="#0f0d0e"/>
+      <!-- Volume layers & waves top -->
+      <path d="M 187 330 Q 192 316 208 314 Q 224 316 232 324 Q 222 320 208 321 Q 194 322 187 330 Z" fill="#1d1719"/>
+      <path d="M 193 322 Q 205 312 220 314 Q 228 318 233 325 Q 222 317 207 317 Q 198 318 193 322 Z" fill="#251e20"/>
 
-      <!-- Red rim light accents -->
-      <path d="M 234 345 Q 238 360 234 380" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.5"/>
-      <path d="M 186 380 Q 182 367 186 350" stroke="#FF0033" stroke-width="0.8" fill="none" opacity="0.25"/>
+      <!-- Sunglasses (Dark Tinted Aviator / Square Shades) -->
+      <!-- Lenses -->
+      <path d="M 191 352 L 206 352 Q 208 352 207 357 L 205 365 Q 203 368 198 368 L 193 368 Q 189 367 190 361 Z" fill="#0a0a0d" stroke="#3a3033" stroke-width="0.8"/>
+      <path d="M 214 352 L 229 352 Q 231 352 230 361 L 227 368 Q 222 368 217 368 Q 212 367 213 357 Z" fill="#0a0a0d" stroke="#3a3033" stroke-width="0.8"/>
+      <!-- Glasses Frame / Top Bar -->
+      <path d="M 188 352 L 232 352" stroke="#FF0033" stroke-width="1.2" fill="none" opacity="0.8"/>
+      <!-- Lens glare reflections -->
+      <line x1="193" y1="354" x2="201" y2="366" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+      <line x1="216" y1="354" x2="224" y2="366" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+
+      <!-- Red Rim Light (Accenting hair, ear, cheek, and shoulder based on photo) -->
+      <path d="M 233 324 Q 238 335 237 355 Q 234 365 232 375 Q 224 385 220 388" stroke="#FF0033" stroke-width="1.5" fill="none" opacity="0.75" filter="url(#glow)"/>
+      <path d="M 235 395 Q 255 400 265 425" stroke="#FF0033" stroke-width="1.2" fill="none" opacity="0.5"/>
     </g>
 
     <!-- ===== NAME & DETAILS ===== -->
