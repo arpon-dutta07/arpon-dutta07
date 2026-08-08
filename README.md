@@ -1,11 +1,7 @@
 <div align="center">
 
 <!-- ✨ Animated Banner ✨ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/main/arpon-banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/main/arpon-banner.svg">
-  <img src="./arpon-banner.svg" alt="Arpon Dutta — Full-Stack Developer" width="100%"/>
-</picture>
+<img src="./arpon-banner.svg" alt="Arpon Dutta — Full-Stack Developer" width="100%"/>
 
 </div>
 
@@ -16,11 +12,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/main/arpon-lanyard.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpon-dutta07/arpon-dutta07/main/arpon-lanyard.svg">
-  <img src="./arpon-lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
-</picture>
+<img src="./arpon-lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
