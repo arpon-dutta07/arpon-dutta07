@@ -3,7 +3,7 @@
     <!-- Background gradient -->
     <radialGradient id="bg" cx="25%" cy="15%" r="95%">
       <stop offset="0%" stop-color="#1a0006"/>
-      <stop offset="40%" stop-color="#0d0d0d"/>
+      <stop offset="45%" stop-color="#0d0d0d"/>
       <stop offset="100%" stop-color="#050505"/>
     </radialGradient>
     <!-- Name gradient -->
@@ -19,13 +19,13 @@
     </linearGradient>
     <!-- Laptop screen glow -->
     <radialGradient id="screenGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#FF0033" stop-opacity="0.15"/>
+      <stop offset="0%" stop-color="#FF0033" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
     <!-- Code card gradient -->
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#111111"/>
-      <stop offset="100%" stop-color="#080808"/>
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#090909"/>
     </linearGradient>
     <!-- Red glow filter -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -37,14 +37,14 @@
     </filter>
     <!-- Soft red glow -->
     <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feGaussianBlur stdDeviation="14" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
       </feMerge>
     </filter>
     <!-- Subtle shadow -->
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
     <!-- Plant pot gradient -->
     <linearGradient id="potGrad" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -72,7 +72,7 @@
   </defs>
 
   <!-- ===== BACKGROUND ===== -->
-  <rect width="1200" height="640" fill="url(#bg)"/>
+  <rect width="1200" height="640" rx="20" fill="url(#bg)"/>
 
   <!-- Subtle grid pattern -->
   <g opacity="0.04" stroke="#FF0033" stroke-width="0.5">
@@ -96,7 +96,7 @@
   </g>
 
   <!-- Border frame with rounded corners -->
-  <rect x="16" y="16" width="1168" height="608" rx="16" fill="none" stroke="#FF0033" stroke-opacity="0.3" stroke-width="1.2"/>
+  <rect x="14" y="14" width="1172" height="612" rx="18" fill="none" stroke="#FF0033" stroke-opacity="0.35" stroke-width="1.5"/>
 
   <!-- Ambient particles -->
   <circle cx="420" cy="130" r="1.8" fill="#FF0033" opacity="0.6"/>
@@ -115,25 +115,19 @@
     <rect x="278" y="78" width="8" height="14" fill="#FF0033" opacity="0.8"/>
   </g>
 
-  <!-- Greeting + Name -->
-  <text x="55" y="140" font-size="22" fill="#d0d0d0" letter-spacing="0.5">Hi, I'm</text>
-  <text x="55" y="198" font-size="52" fill="url(#nameGrad)" font-weight="bold" filter="url(#glow)" letter-spacing="1">Arpon Dutta</text>
+  <!-- Greeting + Big Name -->
+  <text x="55" y="140" font-size="22" fill="#d0d0d0" letter-spacing="0.5">Hi, I'm 👋</text>
+  <text x="55" y="198" font-size="52" fill="url(#nameGrad)" font-weight="bold" filter="url(#glow)" letter-spacing="1">Arpon Dutta 🩸</text>
 
-  <!-- Tagline with separators -->
-  <g font-size="14.5" fill="#888">
-    <text x="55" y="230">Full-Stack Dev</text>
-    <text x="175" y="230" fill="#FF0033" font-weight="bold">&#x2022;</text>
-    <text x="190" y="230">AI/ML Student</text>
-    <text x="320" y="230" fill="#FF0033" font-weight="bold">&#x2022;</text>
-    <text x="335" y="230">Freelancer</text>
-  </g>
+  <!-- Subtitle line -->
+  <text x="55" y="232" font-size="14.5" fill="#FF0033">&lt; <tspan fill="#aaa">Full-Stack Dev | AI/ML Student | Freelancer</tspan> /&gt;</text>
 
   <!-- Quote box -->
   <g filter="url(#shadow)">
-    <rect x="55" y="250" width="460" height="54" rx="8" fill="#0a0a0a" stroke="#FF0033" stroke-opacity="0.45" stroke-width="1"/>
-    <rect x="55" y="250" width="3" height="54" rx="1.5" fill="#FF0033" opacity="0.8"/>
-    <text x="75" y="273" font-size="12.5" fill="#d0d0d0" font-style="italic">"I don't just write code,</text>
-    <text x="78" y="293" font-size="12.5" fill="#FF0033" font-style="italic" font-weight="bold">I engineer experiences."</text>
+    <rect x="55" y="252" width="460" height="54" rx="8" fill="#0a0a0a" stroke="#FF0033" stroke-opacity="0.45" stroke-width="1"/>
+    <rect x="55" y="252" width="3" height="54" rx="1.5" fill="#FF0033" opacity="0.8"/>
+    <text x="75" y="275" font-size="12.5" fill="#d0d0d0" font-style="italic">"I don't just write code,</text>
+    <text x="78" y="295" font-size="12.5" fill="#FF0033" font-style="italic" font-weight="bold">I engineer experiences."</text>
   </g>
 
   <!-- Tech badges -->
@@ -164,9 +158,9 @@
   <!-- About me -->
   <text x="55" y="410" font-size="13" fill="#d0d0d0" font-weight="bold" letter-spacing="1">ABOUT ME</text>
   <g font-size="12" fill="#999">
-    <text x="55" y="434"><tspan fill="#FF0033">&#x276F;</tspan> I build interactive, performant web experiences.</text>
-    <text x="55" y="456"><tspan fill="#FF0033">&#x276F;</tspan> 4+ years freelancing across dev, design &#x26; video.</text>
-    <text x="55" y="478"><tspan fill="#FF0033">&#x276F;</tspan> Turning ideas into shipped products.</text>
+    <text x="55" y="434"><tspan fill="#FF0033">&gt;_</tspan> I build responsive, performant web experiences.</text>
+    <text x="55" y="456"><tspan fill="#FF0033">💡</tspan> Always learning, always building.</text>
+    <text x="55" y="478"><tspan fill="#FF0033">🚀</tspan> Turning ideas into shipped real-world products.</text>
   </g>
 
   <!-- Stats bar -->
@@ -322,19 +316,13 @@
     <!-- ===== DEVELOPER FIGURE (sitting on chair) ===== -->
     <!-- Office chair -->
     <g transform="translate(210, 255)">
-      <!-- Chair base wheel cross -->
       <line x1="-25" y1="95" x2="25" y2="95" stroke="#1c1c1c" stroke-width="3"/>
-      <!-- Wheels -->
       <circle cx="-25" cy="97" r="4" fill="#1a1a1a" stroke="#222" stroke-width="1"/>
       <circle cx="25" cy="97" r="4" fill="#1a1a1a" stroke="#222" stroke-width="1"/>
       <circle cx="0" cy="97" r="3" fill="#1a1a1a"/>
-      <!-- Chair stem -->
       <rect x="-4" y="60" width="8" height="35" fill="#1c1c1c" rx="2"/>
-      <!-- Chair seat -->
       <path d="M -35 50 Q -38 60 -35 62 L 35 62 Q 38 60 35 50 Z" fill="url(#chairGrad)"/>
-      <!-- Chair back -->
       <rect x="-28" y="-10" width="56" height="62" rx="8" fill="url(#chairGrad)" stroke="#252525" stroke-width="1"/>
-      <!-- Red accent stripe on chair -->
       <rect x="-1" y="-5" width="2" height="55" rx="1" fill="#FF0033" opacity="0.3"/>
     </g>
 
@@ -342,21 +330,15 @@
     <g transform="translate(230, 120)">
       <!-- ==== HEAD (matching photo: quiff hair, sunglasses & beard) ==== -->
       <g transform="translate(0, -10)">
-        <!-- Hair volume silhouette (swept up) -->
         <path d="M -22 -10 Q -24 -36 -12 -42 Q 0 -48 14 -44 Q 28 -40 30 -26 Q 30 -10 28 2 Q 15 -4 4 -6 Q -10 -4 -22 -10 Z" fill="#0d0d0d"/>
-        <!-- Head shape -->
         <path d="M -20 -10 Q -22 15 -10 22 Q 4 28 18 22 Q 28 15 26 -10 Z" fill="#2d2527"/>
-        <!-- Beard & Stubble -->
         <path d="M -20 -5 Q -22 18 -10 23 Q 4 28 18 23 Q 28 18 26 -5 Q 24 16 16 22 Q 4 26 -8 22 Q -18 16 -20 -5 Z" fill="#141112"/>
-        <path d="M -6 10 Q 4 13 14 10 Q 4 16 -6 10 Z" fill="#141112"/> <!-- mustache -->
-        <!-- Sunglasses (tinted shades with top bar) -->
+        <path d="M -6 10 Q 4 13 14 10 Q 4 16 -6 10 Z" fill="#141112"/>
         <path d="M -16 -8 L -2 -8 Q -1 -8 -2 -2 L -4 4 Q -9 6 -13 4 L -16 -2 Z" fill="#0a0a0d" stroke="#333" stroke-width="0.8"/>
         <path d="M 6 -8 L 20 -8 Q 21 -8 20 -2 L 18 4 Q 13 6 9 4 L 6 -2 Z" fill="#0a0a0d" stroke="#333" stroke-width="0.8"/>
         <line x1="-18" y1="-8" x2="22" y2="-8" stroke="#FF0033" stroke-width="1.2" opacity="0.8"/>
-        <!-- Hair top volume highlights -->
         <path d="M -18 -22 Q -10 -42 8 -42 Q 22 -40 28 -28 Q 18 -36 4 -36 Q -10 -34 -18 -22 Z" fill="#1a1617"/>
         <path d="M -10 -32 Q 2 -44 14 -43 Q 24 -38 26 -30 Q 14 -38 2 -37 Q -6 -35 -10 -32 Z" fill="#241f21"/>
-        <!-- Red rim light accent on head -->
         <path d="M 28 -26 Q 32 0 26 22" stroke="#FF0033" stroke-width="1.2" fill="none" opacity="0.65"/>
       </g>
 
@@ -364,29 +346,19 @@
       <rect x="-4" y="16" width="16" height="12" fill="#2a2a2a" rx="3"/>
 
       <!-- ==== TORSO ==== -->
-      <!-- T-shirt / hoodie -->
       <path d="M -28 28 Q -32 26 -40 30 L -45 65 Q -45 70 -40 72 L -28 75 Q -20 82 0 85 L 8 85 Q 28 82 36 75 L 48 72 Q 53 70 53 65 L 48 30 Q 40 26 36 28 Q 20 25 4 25 Q -12 25 -28 28 Z" fill="#181818"/>
-      <!-- Hoodie collar / neckline -->
       <path d="M -8 28 Q 4 35 16 28" stroke="#222" stroke-width="1" fill="none"/>
-      <!-- Red accent on shirt (small logo) -->
       <circle cx="4" cy="50" r="4" fill="none" stroke="#FF0033" stroke-opacity="0.4" stroke-width="0.8"/>
       <text x="4" y="52" font-size="4" fill="#FF0033" text-anchor="middle" opacity="0.6">&lt;/&gt;</text>
 
-      <!-- ==== LEFT ARM (reaching to laptop keyboard) ==== -->
+      <!-- ==== ARMS & LEGS ==== -->
       <path d="M -28 35 Q -42 50 -50 75 Q -55 90 -45 105" stroke="#181818" stroke-width="16" fill="none" stroke-linecap="round"/>
-      <!-- Left hand on keyboard -->
       <circle cx="-43" cy="107" r="7" fill="#2a2a2a"/>
-
-      <!-- ==== RIGHT ARM ==== -->
       <path d="M 36 35 Q 52 50 58 75 Q 60 90 52 105" stroke="#181818" stroke-width="16" fill="none" stroke-linecap="round"/>
-      <!-- Right hand on keyboard -->
       <circle cx="53" cy="107" r="7" fill="#2a2a2a"/>
-
-      <!-- ==== LEGS (seated) ==== -->
       <path d="M -15 82 Q -25 100 -30 130" stroke="#111111" stroke-width="16" fill="none" stroke-linecap="round"/>
       <path d="M 20 82 Q 30 100 35 130" stroke="#111111" stroke-width="16" fill="none" stroke-linecap="round"/>
 
-      <!-- Red glow accent behind figure -->
       <circle cx="4" cy="40" r="50" fill="#FF0033" opacity="0.03" filter="url(#softGlow)"/>
     </g>
   </g>
@@ -399,11 +371,13 @@
     <text x="0" y="37" font-size="8" fill="#555" text-anchor="middle">est. 2022</text>
   </g>
 
-  <!-- ===== FOOTER ===== -->
-  <line x1="55" y1="590" x2="1145" y2="590" stroke="#FF0033" stroke-opacity="0.12" stroke-width="1"/>
+  <!-- ===== FOOTER BAR ===== -->
+  <line x1="55" y1="590" x2="1145" y2="590" stroke="#FF0033" stroke-opacity="0.15" stroke-width="1"/>
   <g font-size="11">
-    <text x="55" y="612" fill="#777">github.com/arpon-dutta07</text>
-    <text x="600" y="612" fill="#FF0033" text-anchor="middle" font-weight="bold" letter-spacing="0.5">&#x2022; open to collaborate &#x2022;</text>
-    <text x="1145" y="612" text-anchor="end" fill="#555" font-style="italic">"Code is my craft."</text>
+    <text x="55" y="612" fill="#777">@arpon-dutta07</text>
+    <text x="210" y="612" fill="#777">arpongen3094@gmail.com</text>
+    <circle cx="500" cy="608" r="3" fill="#00FF66"/>
+    <text x="510" y="612" fill="#FF0033" font-weight="bold" letter-spacing="0.5">open to collaborate</text>
+    <text x="1145" y="612" text-anchor="end" fill="#aaa" font-style="italic">"Code is my craft, Logic is my superpower. 💗"</text>
   </g>
 </svg>

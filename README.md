@@ -11,22 +11,21 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Lanyard ID Card -->
+<!-- 🪪 Swinging Lanyard ID Card -->
 <img src="./arpon-lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
 
-### 🖤 About Me
+### 🚀 My Featured Creations
 
-```yaml
-name: Arpon Dutta
-role: Full-Stack Developer & AI/ML Enthusiast
-education: B.Tech CS (AI & ML) — Techno India University — CGPA 8.16
-experience: 4+ years freelance (web dev, graphic design, video reels)
-currently_building: macOS-style portfolio (React + Vite + TS + Tailwind)
-location: Kolkata, India
-```
+| 🎌 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [⚡ AI Image Enhancer](https://github.com/arpon-dutta07) | `JavaScript` `AI/ML` | 25 |
+| [🎨 AI Image Generator](https://github.com/arpon-dutta07) | `CSS` `GenAI` | 18 |
+| [💻 macOS Portfolio](https://github.com/arpon-dutta07) | `React` `TS` `Tailwind` | 15 |
+| [📄 AI Resume Analyzer](https://github.com/arpon-dutta07) | `Python` `NLP` | 12 |
+| [🎓 EduAI Teaching Platform](https://github.com/arpon-dutta07) | `Next.js` `TypeScript` | 10 |
 
 <br/>
 
@@ -51,6 +50,20 @@ location: Kolkata, India
 
 </div>
 
+<br/>
+
+### 🖤 About Me
+
+```yaml
+name: Arpon Dutta
+role: Full-Stack Developer & AI/ML Enthusiast
+education: B.Tech CS (AI & ML) — Techno India University, Kolkata — CGPA 8.16
+experience: 4+ years freelance (web dev, graphic design, video reels) — 10+ client projects
+internship: Web Development Intern @ CodSoft
+currently_building: macOS-style interactive portfolio (React + Vite + TS + Tailwind + Framer Motion)
+location: Kolkata, India
+```
+
 ---
 
 ### ⚙️ Tech Arsenal
@@ -72,32 +85,12 @@ location: Kolkata, India
 
 ---
 
-### 🚀 Pinned Work
+### 📊 GitHub Stats & Graphs
 
 <div align="center">
 
-| Project | Stack |
-|:---|:---:|
-| **AI Image Enhancer** | `JavaScript` `AI/ML` |
-| **AI Image Generator** | `CSS` `Generative AI` |
-| **My Portfolio** | `React` `TypeScript` |
-| **AI Resume Analyzer** | `Python` `NLP` |
-| **Component Craft** | `TypeScript` `React` |
-| **EduAI (Teaching Platform)** | `Next.js` `TypeScript` |
-
-</div>
-
----
-
-### 📊 GitHub Stats & Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=arpon-dutta07&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF0033&icon_color=FF0033&text_color=FFFFFF&ring_color=FF0033" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arpon-dutta07&hide_border=true&background=0D0D0D&ring=FF0033&fire=FF0033&currStreakLabel=FF0033&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=FFFFFF" width="48%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpon-dutta07&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF" width="48%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&bg_color=0D0D0D&color=FF0033&line=FF0033&point=FFFFFF&area=true&hide_border=true" width="48%"/>
+<img src="./arpon-stats.svg" width="49%" alt="Arpon Dutta GitHub Stats"/>
+<img src="./arpon-langs.svg" width="49%" alt="Arpon Dutta Top Languages"/>
 
 </div>
 
@@ -106,7 +99,7 @@ location: Kolkata, India
 ### 🏆 GitHub Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=arpon-dutta07&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" />
+<img src="./arpon-trophies.svg" width="100%" alt="Arpon Dutta GitHub Trophies"/>
 </div>
 
 ---
