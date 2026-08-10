@@ -1,5 +1,10 @@
 <div align="center">
 
+<!-- 🌊 Header Capsule Waving Banner 🌊 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,40:D90429,75:EF233C,100:FF5252&height=140&section=header&text=Welcome%20to%20my%20GitHub%20Profile!&fontSize=32&fontColor=ffffff&fontAlignY=38&animation=twinkling" width="100%"/>
+
+<br/>
+
 <!-- ✨ Animated Banner ✨ -->
 <a href="https://github.com/arpon-dutta07">
   <img src="./arpon_dutta_banner.svg" alt="Arpon Dutta — Full-Stack Developer & AI/ML Enthusiast" width="100%"/>
@@ -47,15 +52,9 @@
 
 ### 🖤 About Me
 
-```yaml
-name: Arpon Dutta
-role: Full-Stack Developer & AI/ML Enthusiast
-education: B.Tech CS (AI & ML) — Techno India University, Kolkata — CGPA 8.16
-experience: 4+ years freelance (web dev, graphic design, video reels) — 10+ client projects
-internship: Web Development Intern @ CodSoft
-currently_building: macOS-style interactive portfolio (React + Vite + TS + Tailwind + Framer Motion)
-location: Kolkata, India
-```
+<div align="center">
+  <img src="./arpon-terminal.svg" alt="Arpon Dutta Terminal" width="100%"/>
+</div>
 
 ---
 
@@ -188,5 +187,4 @@ location: Kolkata, India
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:0D0D0D&height=100&section=footer"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,40:D90429,75:EF233C,100:0D0D0D&height=120&section=footer"/>
