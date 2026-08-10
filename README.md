@@ -157,11 +157,11 @@
 
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/arpon-dutta-009a88360)
-[![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=FF0033)](https://www.instagram.com/arpon_._dutta)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/arpon-dutta-009a88360?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=FF0033)](https://www.instagram.com/bhaatghumlover/)
 [![Gmail](https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=FF0033)](mailto:arpongen3094@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF0033)](https://my-portfolio-eta-ecru-34.vercel.app/)
-[![WhatsApp](https://img.shields.io/badge/-WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=FF0033)](https://wa.me/+919876543210)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF0033)](https://mac-os-portfolio-azure-chi.vercel.app/)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=FF0033)](https://wa.me/917595842466)
 
 <br/><br/>
 
