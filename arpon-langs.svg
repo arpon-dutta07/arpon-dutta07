@@ -1,0 +1,64 @@
+<svg width="480" height="210" viewBox="0 0 480 210" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140206"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="480" height="210" rx="14" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="6" y="6" width="468" height="198" rx="10" fill="none" stroke="#FF0033" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="25" y="38" font-size="15" fill="#FF0033" font-weight="bold" filter="url(#glow)">⚡ Top Languages</text>
+
+  <!-- Progress Bar Base -->
+  <g transform="translate(25, 55)">
+    <rect width="430" height="12" rx="6" fill="#1c1c1c"/>
+    <!-- TypeScript bar -->
+    <rect width="193" height="12" rx="6" fill="#FF0033"/>
+    <!-- React / Next.js bar -->
+    <rect x="190" width="132" height="12" rx="0" fill="#FF6B6B"/>
+    <!-- Python bar -->
+    <rect x="320" width="67" height="12" rx="0" fill="#CC0029"/>
+    <!-- C++ / Other bar -->
+    <rect x="385" width="45" height="12" rx="6" fill="#666666"/>
+  </g>
+
+  <!-- Language List Grid -->
+  <!-- TypeScript -->
+  <g transform="translate(25, 95)">
+    <circle cx="6" cy="6" r="6" fill="#FF0033"/>
+    <text x="20" y="10" font-size="12" fill="#ffffff">TypeScript</text>
+    <text x="200" y="10" font-size="12" fill="#999" text-anchor="end">45.0%</text>
+  </g>
+
+  <!-- React / Next.js -->
+  <g transform="translate(255, 95)">
+    <circle cx="6" cy="6" r="6" fill="#FF6B6B"/>
+    <text x="20" y="10" font-size="12" fill="#ffffff">React / Next.js</text>
+    <text x="200" y="10" font-size="12" fill="#999" text-anchor="end">30.0%</text>
+  </g>
+
+  <!-- Python -->
+  <g transform="translate(25, 145)">
+    <circle cx="6" cy="6" r="6" fill="#CC0029"/>
+    <text x="20" y="10" font-size="12" fill="#ffffff">Python</text>
+    <text x="200" y="10" font-size="12" fill="#999" text-anchor="end">15.0%</text>
+  </g>
+
+  <!-- C++ / JavaScript -->
+  <g transform="translate(255, 145)">
+    <circle cx="6" cy="6" r="6" fill="#666666"/>
+    <text x="20" y="10" font-size="12" fill="#ffffff">C++ / JavaScript</text>
+    <text x="200" y="10" font-size="12" fill="#999" text-anchor="end">10.0%</text>
+  </g>
+</svg>

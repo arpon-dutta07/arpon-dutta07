@@ -1,0 +1,55 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140206"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Trophy Card 1: Full-Stack Dev -->
+  <g transform="translate(10, 10)">
+    <rect width="160" height="100" rx="12" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="80" y="38" font-size="24" text-anchor="middle">🚀</text>
+    <text x="80" y="62" font-size="12" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">Full-Stack Dev</text>
+    <text x="80" y="80" font-size="10" fill="#888" text-anchor="middle">10+ Projects</text>
+  </g>
+
+  <!-- Trophy Card 2: Stargazer -->
+  <g transform="translate(187, 10)">
+    <rect width="160" height="100" rx="12" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="80" y="38" font-size="24" text-anchor="middle">🌟</text>
+    <text x="80" y="62" font-size="12" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">Stargazer</text>
+    <text x="80" y="80" font-size="10" fill="#888" text-anchor="middle">50+ Stars</text>
+  </g>
+
+  <!-- Trophy Card 3: Committer -->
+  <g transform="translate(364, 10)">
+    <rect width="160" height="100" rx="12" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="80" y="38" font-size="24" text-anchor="middle">💻</text>
+    <text x="80" y="62" font-size="12" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">Committer</text>
+    <text x="80" y="80" font-size="10" fill="#888" text-anchor="middle">500+ Commits</text>
+  </g>
+
+  <!-- Trophy Card 4: Freelancer -->
+  <g transform="translate(541, 10)">
+    <rect width="160" height="100" rx="12" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="80" y="38" font-size="24" text-anchor="middle">⚡</text>
+    <text x="80" y="62" font-size="12" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">Freelancer</text>
+    <text x="80" y="80" font-size="10" fill="#888" text-anchor="middle">4+ Years</text>
+  </g>
+
+  <!-- Trophy Card 5: Grad 2026 -->
+  <g transform="translate(718, 10)">
+    <rect width="160" height="100" rx="12" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="80" y="38" font-size="24" text-anchor="middle">🎓</text>
+    <text x="80" y="62" font-size="12" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">Grad 2026</text>
+    <text x="80" y="80" font-size="10" fill="#888" text-anchor="middle">CGPA 8.16</text>
+  </g>
+</svg>

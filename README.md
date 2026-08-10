@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- ✨ Animated Banner ✨ -->
-<img src="./arpon-banner.svg" alt="Arpon Dutta — Full-Stack Developer" width="100%"/>
+<a href="https://github.com/arpon-dutta07">
+  <img src="./Arpon-Dutta-README-Sigma-Animated-Final-v4.svg" alt="Arpon Dutta — Full-Stack Developer & AI/ML Enthusiast" width="100%"/>
+</a>
 
 </div>
 
@@ -21,11 +23,11 @@
 
 | 🎌 Project | 💻 Tech | ⭐ |
 |:---|:---:|:---:|
-| [⚡ AI Image Enhancer](https://github.com/arpon-dutta07) | `JavaScript` `AI/ML` | 25 |
-| [🎨 AI Image Generator](https://github.com/arpon-dutta07) | `CSS` `GenAI` | 18 |
-| [💻 macOS Portfolio](https://github.com/arpon-dutta07) | `React` `TS` `Tailwind` | 15 |
-| [📄 AI Resume Analyzer](https://github.com/arpon-dutta07) | `Python` `NLP` | 12 |
-| [🎓 EduAI Teaching Platform](https://github.com/arpon-dutta07) | `Next.js` `TypeScript` | 10 |
+| [⚡ AI Image Enhancer](https://github.com/arpon-dutta07/AI-Image-Enhancer) | `JavaScript` `AI/ML` | 25 |
+| [🎨 AI Image Generator](https://github.com/arpon-dutta07/AI-Image-Generator) | `CSS` `GenAI` | 18 |
+| [💻 macOS Portfolio](https://my-portfolio-eta-ecru-34.vercel.app/) | `React` `TS` `Tailwind` | 15 |
+| [📄 AI Resume Analyzer](https://github.com/arpon-dutta07/AI-Resume-Analyzer) | `Python` `NLP` | 12 |
+| [🎓 EduAI Teaching Platform](https://github.com/arpon-dutta07/EduAI-Teaching-Platform) | `Next.js` `TypeScript` | 10 |
 
 <br/>
 
@@ -46,7 +48,9 @@
 <a href="https://github.com/arpon-dutta07">
   <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=FF0033&style=for-the-badge&labelColor=0D0D0D" alt="views"/>
 </a>
-<img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="followers"/>
+<a href="https://github.com/arpon-dutta07?tab=followers">
+  <img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="followers"/>
+</a>
 
 </div>
 
@@ -89,8 +93,12 @@ location: Kolkata, India
 
 <div align="center">
 
-<img src="./arpon-stats.svg" width="49%" alt="Arpon Dutta GitHub Stats"/>
-<img src="./arpon-langs.svg" width="49%" alt="Arpon Dutta Top Languages"/>
+<a href="https://github.com/arpon-dutta07">
+  <img src="./arpon-stats.svg" width="49%" alt="Arpon Dutta GitHub Stats"/>
+</a>
+<a href="https://github.com/arpon-dutta07">
+  <img src="./arpon-langs.svg" width="49%" alt="Arpon Dutta Top Languages"/>
+</a>
 
 </div>
 
@@ -99,7 +107,9 @@ location: Kolkata, India
 ### 🏆 GitHub Trophies
 
 <div align="center">
-<img src="./arpon-trophies.svg" width="100%" alt="Arpon Dutta GitHub Trophies"/>
+<a href="https://github.com/arpon-dutta07">
+  <img src="./arpon-trophies.svg" width="100%" alt="Arpon Dutta GitHub Trophies"/>
+</a>
 </div>
 
 ---
@@ -123,7 +133,9 @@ location: Kolkata, India
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/arpon-dutta-009a88360)
 [![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=FF0033)](https://www.instagram.com/arpon_._dutta)
 [![Gmail](https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=FF0033)](mailto:arpongen3094@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=FF0033)](https://github.com/arpon-dutta07)
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:0D0D0D&height=100&section=footer"/>
+
