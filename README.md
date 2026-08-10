@@ -14,7 +14,7 @@
 <td width="50%" align="center" valign="middle">
 
 <!-- 🖥️ Dev Setup -->
-<img src="./arpon_dutta_setup1.svg" alt="Arpon Dutta Dev Setup" width="100%"/>
+<img src="./arpon_dutta_setup2.svg" alt="Arpon Dutta Dev Setup" width="100%"/>
 
 </td>
 <td width="50%" align="center" valign="middle">
