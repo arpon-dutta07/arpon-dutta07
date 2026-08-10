@@ -33,32 +33,32 @@
 
 <br/>
 
+### 🖤 About Me
+
+<div align="center">
+  <img src="./arpon-terminal.svg" alt="Arpon Dutta Terminal" width="100%"/>
+</div>
+
+<br/>
+
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF0033&center=true&vCenter=true&width=650&lines=Final-Year+CS+(AI+%26+ML)+Student;4%2B+Years+Freelance+Dev+%26+Design;Building+Interactive+Web+Experiences;Kolkata+%2C+India" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- 🟢 Status & Counter Badges 🟢 -->
-<img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_HIRE-00E676?style=for-the-badge&logo=github&labelColor=000000" alt="Status"/>
+<!-- 🔴 Black & Red Status & Counter Badges 🔴 -->
+<img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_HIRE-FF0033?style=for-the-badge&logo=github&labelColor=0D0D0D" alt="Status"/>
 <a href="https://github.com/arpon-dutta07">
-  <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=8A2BE2&style=for-the-badge&labelColor=555555" alt="Views"/>
+  <img src="https://komarev.com/ghpvc/?username=arpon-dutta07&label=PROFILE+VIEWS&color=FF0033&style=for-the-badge&labelColor=0D0D0D" alt="Views"/>
 </a>
 <a href="https://github.com/arpon-dutta07?tab=followers">
-  <img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF7043&labelColor=000000&logo=github" alt="Followers"/>
+  <img src="https://img.shields.io/github/followers/arpon-dutta07?label=FOLLOWERS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="Followers"/>
 </a>
 <a href="https://github.com/arpon-dutta07">
-  <img src="https://img.shields.io/github/stars/arpon-dutta07?label=TOTAL+STARS&style=for-the-badge&color=E5C07B&labelColor=000000&logo=github" alt="Stars"/>
+  <img src="https://img.shields.io/github/stars/arpon-dutta07?label=TOTAL+STARS&style=for-the-badge&color=FF0033&labelColor=0D0D0D&logo=github" alt="Stars"/>
 </a>
 
-</div>
-
-<br/>
-
-### 🖤 About Me
-
-<div align="center">
-  <img src="./arpon-terminal.svg" alt="Arpon Dutta Terminal" width="100%"/>
 </div>
 
 

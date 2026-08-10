@@ -13,17 +13,32 @@
       </feMerge>
     </filter>
     <style>
-      @keyframes blink {
+      @keyframes lineAppear {
+        0% { opacity: 0; transform: translateY(4px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes cursorBlink {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
-      .cursor { animation: blink 1s infinite; fill: #FF0033; }
-      .prompt { fill: #FF3366; font-weight: bold; }
-      .cmd { fill: #FFFFFF; font-weight: bold; }
-      .key { fill: #FF4D6D; font-weight: 600; }
-      .colon { fill: #888888; }
-      .val { fill: #FF85A1; }
-      .highlight { fill: #FF0033; font-weight: bold; filter: url(#termGlow); }
+
+      .line-cmd { animation: lineAppear 0.3s ease-out 0.2s forwards; opacity: 0; }
+      .line-1   { animation: lineAppear 0.3s ease-out 0.7s forwards; opacity: 0; }
+      .line-2   { animation: lineAppear 0.3s ease-out 1.2s forwards; opacity: 0; }
+      .line-3   { animation: lineAppear 0.3s ease-out 1.7s forwards; opacity: 0; }
+      .line-4   { animation: lineAppear 0.3s ease-out 2.2s forwards; opacity: 0; }
+      .line-5   { animation: lineAppear 0.3s ease-out 2.7s forwards; opacity: 0; }
+      .line-6   { animation: lineAppear 0.3s ease-out 3.2s forwards; opacity: 0; }
+      .line-7   { animation: lineAppear 0.3s ease-out 3.7s forwards; opacity: 0; }
+      .line-end { animation: lineAppear 0.3s ease-out 4.2s forwards; opacity: 0; }
+
+      .cursor   { animation: cursorBlink 1s infinite 4.4s; opacity: 1; fill: #FF0033; }
+      .prompt   { fill: #FF0033; font-weight: bold; }
+      .cmd      { fill: #FFFFFF; font-weight: bold; }
+      .key      { fill: #FF3366; font-weight: 600; }
+      .colon    { fill: #888888; }
+      .val      { fill: #E0E0E0; }
+      .highlight{ fill: #FF0033; font-weight: bold; filter: url(#termGlow); }
     </style>
   </defs>
 
@@ -34,54 +49,72 @@
   <path d="M0 12 C0 5.373 5.373 0 12 0 L788 0 C794.627 0 800 5.373 800 12 L800 36 L0 36 Z" fill="#180A0D" stroke="#FF0033" stroke-opacity="0.2" stroke-width="1"/>
   
   <!-- Window Controls -->
-  <circle cx="20" cy="18" r="6" fill="#FF5F56"/>
-  <circle cx="38" cy="18" r="6" fill="#FFBD2E"/>
-  <circle cx="56" cy="18" r="6" fill="#27C93F"/>
+  <circle cx="20" cy="18" r="6" fill="#FF0033"/>
+  <circle cx="38" cy="18" r="6" fill="#881122"/>
+  <circle cx="56" cy="18" r="6" fill="#440811"/>
 
   <!-- Window Title -->
-  <text x="400" y="23" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#AA5566" text-anchor="middle">arpon@kolkata:~ (bash)</text>
+  <text x="400" y="23" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#FF3366" text-anchor="middle">arpon@kolkata:~ (bash)</text>
 
   <!-- Terminal Content -->
   <g font-family="'Fira Code', 'Cascadia Code', Monaco, monospace" font-size="13">
     <!-- Command Line 1 -->
-    <text x="25" y="65">
-      <tspan class="prompt">arpon@kolkata:~$</tspan>
-      <tspan class="cmd"> cat about_me.yml</tspan>
-    </text>
+    <g class="line-cmd">
+      <text x="25" y="65">
+        <tspan class="prompt">arpon@kolkata:~$</tspan>
+        <tspan class="cmd"> cat about_me.yml</tspan>
+      </text>
+    </g>
 
     <!-- YAML Content -->
-    <text x="25" y="95">
-      <tspan class="key">name</tspan><tspan class="colon">: </tspan><tspan class="highlight">Arpon Dutta</tspan>
-    </text>
+    <g class="line-1">
+      <text x="25" y="95">
+        <tspan class="key">name</tspan><tspan class="colon">: </tspan><tspan class="highlight">Arpon Dutta</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="120">
-      <tspan class="key">role</tspan><tspan class="colon">: </tspan><tspan class="val">Full-Stack Developer &amp; AI/ML Enthusiast</tspan>
-    </text>
+    <g class="line-2">
+      <text x="25" y="120">
+        <tspan class="key">role</tspan><tspan class="colon">: </tspan><tspan class="val">Full-Stack Developer &amp; AI/ML Enthusiast</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="145">
-      <tspan class="key">education</tspan><tspan class="colon">: </tspan><tspan class="val">B.Tech CS (AI &amp; ML) — Techno India University — CGPA 8.16</tspan>
-    </text>
+    <g class="line-3">
+      <text x="25" y="145">
+        <tspan class="key">education</tspan><tspan class="colon">: </tspan><tspan class="val">B.Tech CS (AI &amp; ML) — Techno India University — CGPA 8.38</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="170">
-      <tspan class="key">experience</tspan><tspan class="colon">: </tspan><tspan class="val">4+ years freelance (Web Dev, Graphic Design, Video)</tspan>
-    </text>
+    <g class="line-4">
+      <text x="25" y="170">
+        <tspan class="key">experience</tspan><tspan class="colon">: </tspan><tspan class="val">4+ years freelance (Web Dev, Graphic Design, Video)</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="195">
-      <tspan class="key">internship</tspan><tspan class="colon">: </tspan><tspan class="val">Web Development Intern @ CodSoft</tspan>
-    </text>
+    <g class="line-5">
+      <text x="25" y="195">
+        <tspan class="key">internship</tspan><tspan class="colon">: </tspan><tspan class="val">Web Development Intern @ CodSoft</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="220">
-      <tspan class="key">building</tspan><tspan class="colon">: </tspan><tspan class="val">macOS Portfolio (React + Vite + TS + Tailwind + Framer)</tspan>
-    </text>
+    <g class="line-6">
+      <text x="25" y="220">
+        <tspan class="key">building</tspan><tspan class="colon">: </tspan><tspan class="val">macOS Portfolio (React + Vite + TS + Tailwind + Framer)</tspan>
+      </text>
+    </g>
 
-    <text x="25" y="245">
-      <tspan class="key">location</tspan><tspan class="colon">: </tspan><tspan class="val">Kolkata, India 📍</tspan>
-    </text>
+    <g class="line-7">
+      <text x="25" y="245">
+        <tspan class="key">location</tspan><tspan class="colon">: </tspan><tspan class="val">Kolkata, India 📍</tspan>
+      </text>
+    </g>
 
-    <!-- Command Line 2 with Blinking Cursor -->
-    <text x="25" y="280">
-      <tspan class="prompt">arpon@kolkata:~$</tspan>
-      <tspan class="cursor">█</tspan>
-    </text>
+    <!-- Final Command Line with Blinking Cursor -->
+    <g class="line-end">
+      <text x="25" y="280">
+        <tspan class="prompt">arpon@kolkata:~$</tspan>
+        <tspan class="cursor">█</tspan>
+      </text>
+    </g>
   </g>
 </svg>
