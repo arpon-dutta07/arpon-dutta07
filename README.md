@@ -28,30 +28,6 @@
 
 <br/>
 
-<table align="center" border="0">
-<tr>
-<td valign="middle">
-
-### 🚀 My Featured Creations
-
-| 🎌 Project | 💻 Tech | ⭐ |
-|:---|:---:|:---:|
-| [⚡ AI Image Enhancer](https://github.com/arpon-dutta07/AI-Image-Enhancer) | `JavaScript` `AI/ML` | 25 |
-| [🎨 AI Image Generator](https://github.com/arpon-dutta07/AI-Image-Generator) | `CSS` `GenAI` | 18 |
-| [💻 macOS Portfolio](https://my-portfolio-eta-ecru-34.vercel.app/) | `React` `TS` `Tailwind` | 15 |
-| [📄 AI Resume Analyzer](https://github.com/arpon-dutta07/AI-Resume-Analyzer) | `Python` `NLP` | 12 |
-| [🎓 EduAI Teaching Platform](https://github.com/arpon-dutta07/EduAI-Teaching-Platform) | `Next.js` `TypeScript` | 10 |
-
-<br/>
-
-> 💗 *"I don't just write code, I engineer experiences."*
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF0033&center=true&vCenter=true&width=650&lines=Final-Year+CS+(AI+%26+ML)+Student;4%2B+Years+Freelance+Dev+%26+Design;Building+Interactive+Web+Experiences;Kolkata+%2C+India" alt="Typing SVG" />
@@ -113,15 +89,7 @@ location: Kolkata, India
 
 <br/><br/>
 
-<!-- 📈 GitHub Stats + Top Languages -->
-<a href="https://github.com/arpon-dutta07">
-  <img src="https://github-readme-stats.vercel.app/api?username=arpon-dutta07&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF&icon_color=FF0033&ring_color=FF0033&rank_icon=github&include_all_commits=true&count_private=true" width="49%" alt="Arpon Dutta GitHub Stats"/>
-</a>
-<a href="https://github.com/arpon-dutta07">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpon-dutta07&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF&langs_count=8" width="49%" alt="Arpon Dutta Top Languages"/>
-</a>
 
-<br/><br/>
 
 <!-- 📊 Profile Summary Cards -->
 <a href="https://github.com/arpon-dutta07">
@@ -151,16 +119,6 @@ location: Kolkata, India
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&bg_color=0D0D0D&color=FF0033&line=FF0033&point=FFFFFF&area_color=FF0033&area=true&hide_border=true&custom_title=Contribution%20Graph" width="98%" alt="Contribution Graph"/>
 </a>
 
-</div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-<a href="https://github.com/arpon-dutta07">
-  <img src="https://github-profile-trophy.vercel.app/?username=arpon-dutta07&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Arpon Dutta GitHub Trophies"/>
-</a>
 </div>
 
 ---
