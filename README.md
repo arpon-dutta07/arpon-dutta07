@@ -33,7 +33,11 @@
 
 <br/>
 
-### 🖤 About Me
+<div align="center">
+  <img src="./arpon-header-aboutme.svg" alt="About Me Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
   <img src="./arpon-terminal.svg" alt="Arpon Dutta Terminal" width="100%"/>
@@ -61,8 +65,13 @@
 
 </div>
 
+<br/>
 
-### 📊 GitHub Analytics
+<div align="center">
+  <img src="./arpon-header-analytics.svg" alt="GitHub Analytics Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -72,8 +81,6 @@
 </a>
 
 <br/><br/>
-
-
 
 <!-- 📊 Profile Summary Cards -->
 <a href="https://github.com/arpon-dutta07">
@@ -105,9 +112,13 @@
 
 </div>
 
----
+<br/>
 
-### 🐍 Contribution Snake
+<div align="center">
+  <img src="./arpon-header-snake.svg" alt="Contribution Snake Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 <picture>
@@ -117,39 +128,55 @@
 </picture>
 </div>
 
----
+<br/>
 
-### 🎯 Mission Statement
+<div align="center">
+  <img src="./arpon-header-mission.svg" alt="Mission Statement Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 <img src="./arpon-mission.svg" alt="Mission Statement" width="100%"/>
 </div>
 
----
+<br/>
 
-### 🛠️ Languages & Tools
+<div align="center">
+  <img src="./arpon-header-skills.svg" alt="Languages &amp; Tools Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,python,cpp&theme=dark&perline=10" alt="Languages & Tools"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,python,cpp&theme=dark&perline=10" alt="Languages &amp; Tools"/>
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=vite,git,github,vscode,figma,vercel,mongodb,express,docker,linux&theme=dark&perline=10" alt="Tools & Platforms"/>
+<img src="https://skillicons.dev/icons?i=vite,git,github,vscode,figma,vercel,mongodb,express,docker,linux&theme=dark&perline=10" alt="Tools &amp; Platforms"/>
 
 </div>
 
----
+<br/>
 
-### 💭 Coding Philosophy
+<div align="center">
+  <img src="./arpon-header-philosophy.svg" alt="Coding Philosophy Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 <img src="./arpon-philosophy.svg" alt="Coding Philosophy" width="100%"/>
 </div>
 
----
+<br/>
 
-### 📫 Connect With Me
+<div align="center">
+  <img src="./arpon-header-connect.svg" alt="Connect Header" width="100%"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -173,3 +200,4 @@
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,40:D90429,75:EF233C,100:0D0D0D&height=120&section=footer"/>
+
