@@ -102,15 +102,53 @@ location: Kolkata, India
 
 ---
 
-### 📊 GitHub Stats & Graphs
+### 📊 GitHub Analytics
 
 <div align="center">
 
+<!-- 🔥 Streak Stats -->
 <a href="https://github.com/arpon-dutta07">
-  <img src="./arpon-stats.svg" width="49%" alt="Arpon Dutta GitHub Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=arpon-dutta07&theme=black-ice&hide_border=true&background=0D0D0D&stroke=FF0033&ring=FF0033&fire=FF0033&currStreakLabel=FF0033&sideLabels=FF0033&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=808080" width="70%" alt="GitHub Streak Stats"/>
+</a>
+
+<br/><br/>
+
+<!-- 📈 GitHub Stats + Top Languages -->
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-readme-stats.vercel.app/api?username=arpon-dutta07&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF&icon_color=FF0033&ring_color=FF0033&rank_icon=github&include_all_commits=true&count_private=true" width="49%" alt="Arpon Dutta GitHub Stats"/>
 </a>
 <a href="https://github.com/arpon-dutta07">
-  <img src="./arpon-langs.svg" width="49%" alt="Arpon Dutta Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpon-dutta07&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF0033&text_color=FFFFFF&langs_count=8" width="49%" alt="Arpon Dutta Top Languages"/>
+</a>
+
+<br/><br/>
+
+<!-- 📊 Profile Summary Cards -->
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arpon-dutta07&theme=2077" width="32%" alt="Top Languages by Repo"/>
+</a>
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arpon-dutta07&theme=2077" width="32%" alt="Top Languages by Commit"/>
+</a>
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arpon-dutta07&theme=2077" width="32%" alt="Stats"/>
+</a>
+
+<br/><br/>
+
+<!-- ⏰ Commits per Hour + Contribution Graph -->
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arpon-dutta07&theme=2077&utcOffset=5.5" width="49%" alt="Commits per Hour"/>
+</a>
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arpon-dutta07&theme=2077" width="49%" alt="Contribution Graph"/>
+</a>
+
+<br/><br/>
+
+<!-- 📉 Activity Graph -->
+<a href="https://github.com/arpon-dutta07">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arpon-dutta07&bg_color=0D0D0D&color=FF0033&line=FF0033&point=FFFFFF&area_color=FF0033&area=true&hide_border=true&custom_title=Contribution%20Graph" width="98%" alt="Contribution Graph"/>
 </a>
 
 </div>
@@ -121,9 +159,10 @@ location: Kolkata, India
 
 <div align="center">
 <a href="https://github.com/arpon-dutta07">
-  <img src="./arpon-trophies.svg" width="100%" alt="Arpon Dutta GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=arpon-dutta07&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Arpon Dutta GitHub Trophies"/>
 </a>
 </div>
+
 
 ---
 
