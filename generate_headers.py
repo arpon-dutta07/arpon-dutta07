@@ -10,7 +10,7 @@ headers = [
     ('arpon-header-connect.svg', '📫 CONNECT WITH ME', 'LET\'S BUILD SOMETHING AMAZING')
 ]
 
-template = '''<?xml opacity="1.0" encoding="UTF-8"?>
+template = '''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="75" viewBox="0 0 800 75">
   <defs>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -60,4 +60,4 @@ for filename, title, subtitle in headers:
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(content)
 
-print('Generated all animated SVG section headers successfully!')
+print('Regenerated valid XML SVG section headers!')
