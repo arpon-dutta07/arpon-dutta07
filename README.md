@@ -163,7 +163,6 @@ location: Kolkata, India
 </a>
 </div>
 
-
 ---
 
 ### 🐍 Contribution Snake
@@ -178,17 +177,58 @@ location: Kolkata, India
 
 ---
 
-### 📫 Connect
+### 🎯 Mission Statement
+
+<div align="center">
+<img src="./arpon-mission.svg" alt="Mission Statement" width="100%"/>
+</div>
+
+---
+
+### 🛠️ Languages & Tools
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF0033)](https://my-portfolio-eta-ecru-34.vercel.app/)
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,tailwind,python,cpp&theme=dark&perline=10" alt="Languages & Tools"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=vite,git,github,vscode,figma,vercel,mongodb,express,docker,linux&theme=dark&perline=10" alt="Tools & Platforms"/>
+
+</div>
+
+---
+
+### 💭 Coding Philosophy
+
+<div align="center">
+<img src="./arpon-philosophy.svg" alt="Coding Philosophy" width="100%"/>
+</div>
+
+---
+
+### 📫 Connect With Me
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=35&pause=1000&color=FF0033&center=true&vCenter=true&width=600&lines=Let's+Build+Something+Amazing+Together+🚀" alt="Let's Build Something Amazing Together"/>
+
+<br/><br/>
+
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/arpon-dutta-009a88360)
 [![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=FF0033)](https://www.instagram.com/arpon_._dutta)
 [![Gmail](https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=FF0033)](mailto:arpongen3094@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=FF0033)](https://github.com/arpon-dutta07)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF0033)](https://my-portfolio-eta-ecru-34.vercel.app/)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=FF0033)](https://wa.me/+919876543210)
+
+<br/><br/>
+
+![Open for Collaboration](https://img.shields.io/badge/🤝_OPEN_FOR-COLLABORATION-FF0033?style=for-the-badge&labelColor=0D0D0D)
+![Available for Freelance](https://img.shields.io/badge/💼_AVAILABLE_FOR-FREELANCE-FF0033?style=for-the-badge&labelColor=0D0D0D)
 
 </div>
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,100:0D0D0D&height=100&section=footer"/>
 

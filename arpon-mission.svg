@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140206"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes fadeInUp {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes slideIn {
+        0% { opacity: 0; transform: translateX(-15px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      .card1 { animation: fadeInUp 0.8s ease-out 0.1s both; }
+      .card2 { animation: fadeInUp 0.8s ease-out 0.3s both; }
+      .card3 { animation: fadeInUp 0.8s ease-out 0.5s both; }
+      .card4 { animation: fadeInUp 0.8s ease-out 0.7s both; }
+      .icon-pulse { animation: pulseGlow 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="160" rx="14" fill="url(#bgGrad)" stroke="#FF0033" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Card 1: Innovation -->
+  <g class="card1">
+    <rect x="20" y="20" width="175" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="107" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#FF0033" text-anchor="middle" class="icon-pulse">🚀</text>
+    <text x="107" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">INNOVATION</text>
+    <text x="107" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Cutting-edge</text>
+    <text x="107" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">solutions</text>
+  </g>
+
+  <!-- Card 2: Performance -->
+  <g class="card2">
+    <rect x="215" y="20" width="175" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="302" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#FF0033" text-anchor="middle" class="icon-pulse">⚡</text>
+    <text x="302" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">PERFORMANCE</text>
+    <text x="302" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Lightning-fast</text>
+    <text x="302" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">code</text>
+  </g>
+
+  <!-- Card 3: Quality -->
+  <g class="card3">
+    <rect x="410" y="20" width="175" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="497" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#FF0033" text-anchor="middle" class="icon-pulse">💎</text>
+    <text x="497" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">QUALITY</text>
+    <text x="497" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Clean &amp; scalable</text>
+    <text x="497" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">architecture</text>
+  </g>
+
+  <!-- Card 4: AI-Powered -->
+  <g class="card4">
+    <rect x="605" y="20" width="175" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="692" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#FF0033" text-anchor="middle" class="icon-pulse">🤖</text>
+    <text x="692" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow)">AI-POWERED</text>
+    <text x="692" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Future-ready</text>
+    <text x="692" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">technology</text>
+  </g>
+</svg>

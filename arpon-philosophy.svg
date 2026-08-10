@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140206"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes slideUp {
+        0% { opacity: 0; transform: translateY(25px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.5; }
+        50% { opacity: 1; }
+        100% { opacity: 0.5; }
+      }
+      .phil1 { animation: slideUp 0.7s ease-out 0.2s both; }
+      .phil2 { animation: slideUp 0.7s ease-out 0.5s both; }
+      .phil3 { animation: slideUp 0.7s ease-out 0.8s both; }
+      .phil-icon { animation: float 3s ease-in-out infinite; }
+      .quote-text { animation: shimmer 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="150" rx="14" fill="url(#bgGrad2)" stroke="#FF0033" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Card 1: Clean Code -->
+  <g class="phil1">
+    <rect x="20" y="15" width="240" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.35" stroke-width="1"/>
+    <text x="140" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle" class="phil-icon">💻</text>
+    <text x="140" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow2)">Clean Code</text>
+    <text x="140" y="100" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">"Code tells you how,</text>
+    <text x="140" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">comments tell you why"</text>
+  </g>
+
+  <!-- Card 2: Innovation -->
+  <g class="phil2">
+    <rect x="280" y="15" width="240" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.35" stroke-width="1"/>
+    <text x="400" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle" class="phil-icon">💡</text>
+    <text x="400" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow2)">Innovation</text>
+    <text x="400" y="100" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">"Think different,</text>
+    <text x="400" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">code different"</text>
+  </g>
+
+  <!-- Card 3: Performance -->
+  <g class="phil3">
+    <rect x="540" y="15" width="240" height="120" rx="10" fill="#1a0008" stroke="#FF0033" stroke-opacity="0.35" stroke-width="1"/>
+    <text x="660" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle" class="phil-icon">🚀</text>
+    <text x="660" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#FF0033" font-weight="bold" text-anchor="middle" filter="url(#glow2)">Performance</text>
+    <text x="660" y="100" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">"Optimize for</text>
+    <text x="660" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#808080" text-anchor="middle" font-style="italic" class="quote-text">user experience"</text>
+  </g>
+</svg>
