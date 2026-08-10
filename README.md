@@ -2,7 +2,7 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <a href="https://github.com/arpon-dutta07">
-  <img src="./Arpon-Dutta-README-Sigma-Animated-Final-v4.svg" alt="Arpon Dutta — Full-Stack Developer & AI/ML Enthusiast" width="100%"/>
+  <img src="./arpon_dutta_banner.svg" alt="Arpon Dutta — Full-Stack Developer & AI/ML Enthusiast" width="100%"/>
 </a>
 
 </div>
@@ -11,13 +11,26 @@
 
 <table align="center" border="0">
 <tr>
-<td width="38%" align="center" valign="middle">
+<td width="50%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./arpon-lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
+<!-- 🖥️ Dev Setup -->
+<img src="./arpon_dutta_setup1.svg" alt="Arpon Dutta Dev Setup" width="100%"/>
 
 </td>
-<td width="62%" valign="middle">
+<td width="50%" align="center" valign="middle">
+
+<!-- 🪪 Swinging Lanyard ID Card -->
+<img src="./arpon_dutta_lanyard.svg" alt="Arpon Dutta ID badge" width="330"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center" border="0">
+<tr>
+<td valign="middle">
 
 ### 🚀 My Featured Creations
 
