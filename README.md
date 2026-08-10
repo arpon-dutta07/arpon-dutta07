@@ -33,9 +33,7 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-aboutme.svg" alt="About Me Header" width="100%"/>
-</div>
+### 🖤 About Me
 
 <br/>
 
@@ -67,9 +65,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-analytics.svg" alt="GitHub Analytics Header" width="100%"/>
-</div>
+---
+
+### 📊 GitHub Analytics
 
 <br/>
 
@@ -114,9 +112,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-snake.svg" alt="Contribution Snake Header" width="100%"/>
-</div>
+---
+
+### 🐍 Contribution Snake
 
 <br/>
 
@@ -130,9 +128,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-mission.svg" alt="Mission Statement Header" width="100%"/>
-</div>
+---
+
+### 🎯 Mission Statement
 
 <br/>
 
@@ -142,9 +140,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-skills.svg" alt="Languages &amp; Tools Header" width="100%"/>
-</div>
+---
+
+### 🛠️ Languages & Tools
 
 <br/>
 
@@ -160,9 +158,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-philosophy.svg" alt="Coding Philosophy Header" width="100%"/>
-</div>
+---
+
+### 💭 Coding Philosophy
 
 <br/>
 
@@ -172,9 +170,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="./arpon-header-connect.svg" alt="Connect Header" width="100%"/>
-</div>
+---
+
+### 📫 Connect With Me
 
 <br/>
 
@@ -200,4 +198,3 @@
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,40:D90429,75:EF233C,100:0D0D0D&height=120&section=footer"/>
-
