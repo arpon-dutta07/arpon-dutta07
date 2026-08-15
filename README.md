@@ -194,7 +194,7 @@
 ![Available for Freelance](https://img.shields.io/badge/💼_AVAILABLE_FOR-FREELANCE-FF0033?style=for-the-badge&labelColor=0D0D0D)
 
 </div>
-Hii
+
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0033,40:D90429,75:EF233C,100:0D0D0D&height=120&section=footer"/>
